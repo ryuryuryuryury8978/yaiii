@@ -13,3 +13,10 @@ data = {
 map_data = pd.DataFrame(data)
 # 地図に散布図を描く
 st.map(map_data)
+
+answer = st.button('Say hello')
+
+if answer == True:
+     st.write('Why hello there')
+else:
+     st.write('Goodbye')
